@@ -1,0 +1,35 @@
+# Dataset configuration
+dataset:
+  data_dir: "~/Desktop/X-Ray/Chest X-Ray Covid19 Pneumonia"
+  batch_size: 32
+  img_size: 224
+
+# Model configuration
+model:
+  name: "resnet18"
+  pretrained: true
+  num_classes: 3
+  checkpoint_path: "models/checkpoints/xray_resnet18_checkpoint.ckpt"
+
+# Training configuration
+training:
+  epochs: 10
+  lr: 1e-4
+  weight_decay: 1e-5
+  early_stopping_patience: 5
+  device: "cuda" # or "cpu" / "mps"
+  scheduler:
+    type: "ReduceLROnPlateau"
+    factor: 0.5
+    patience: 2
+  mixed_precision: true
+
+# Grad-CAM configuration
+gradcam:
+  target_layer: "layer4.1.conv2"
+  n_visualizations: 5
+
+# Paths
+paths:
+  checkpoints_dir: "models/checkpoints"
+  assets_dir: "assets"
