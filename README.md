@@ -291,26 +291,32 @@ The visualization module includes:
 Example visual outputs can be found inside:
 
 ```text
-assets/
+assets/visualizations/
 ```
 
 ### Confusion Matrix
 
 <p align="center">
-  <img src="assets/confusion_matrix.png" width="600">
+  <img src="assets/visualizations/confusion_matrix.png" width="400">
 </p>
+
+_Shows the classification performance for each class._
 
 ### Prediction Visualization
 
 <p align="center">
-  <img src="assets/visualization_result.jpeg" width="700">
+  <img src="assets/visualizations/visualization_result.png" width="500">
 </p>
+
+_Displays correctly and incorrectly classified samples._
 
 ### Grad-CAM Visualization
 
 <p align="center">
-  <img src="assets/gradcam_result.png" width="700">
+  <img src="assets/visualizations/gradcam_result.png" width="500">
 </p>
+
+Highlights regions in the X-ray that most influence the model’s prediction.
 
 ---
 
