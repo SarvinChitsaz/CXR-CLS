@@ -242,10 +242,13 @@ Python >= 3.9
 torch
 torchvision
 numpy
+pandas
 matplotlib
-seaborn
-opencv-python
 scikit-learn
+opencv-python
+seaborn
+tqdm
+Pillow
 ```
 
 Install dependencies via:
