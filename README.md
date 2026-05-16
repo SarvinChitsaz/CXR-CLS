@@ -320,6 +320,22 @@ assets/
 
 ---
 
+## Trained Model Checkpoint
+
+The trained ResNet18 model checkpoint is provided in the `checkpoints/` directory.
+
+Checkpoint file:
+- `xray_resnet18_checkpoint.ckpt`
+
+The checkpoint contains:
+- Model weights
+- Optimizer state
+- Class labels
+
+This allows the trained model to be reloaded for inference, evaluation, or further fine-tuning without retraining from scratch.
+
+--- 
+
 # License
 
 This project is intended for research and educational purposes.
