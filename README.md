@@ -6,6 +6,22 @@ Automated chest X-ray classification using ResNet18 with Grad-CAM interpretabili
 
 # Overview
 
+<p align="center">
+
+  <img src="assets/visualizations/gradcam_result.png" width="400">
+
+</p>
+
+<p align="center">
+
+  <em>
+
+    Grad-CAM heatmaps showing regions that most strongly influence the model’s predictions.
+
+  </em>
+
+</p>
+
 CXR-CLS is a deep learning framework designed for automated multi-class chest X-ray classification. The project focuses on detecting and distinguishing between COVID-19, Pneumonia, and Normal chest X-rays using convolutional neural networks.
 
 The pipeline is implemented in PyTorch and leverages transfer learning with a pretrained ResNet18 backbone to achieve robust classification performance on medical imaging data.
