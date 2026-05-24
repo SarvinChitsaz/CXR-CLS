@@ -224,11 +224,11 @@ The modular pipeline design allows easy experimentation and extension to additio
 The final model achieved the following performance on the test dataset:
 
 ```text
-Accuracy : 0.9898
-Precision: 0.9902
-Recall   : 0.9897
-F1 Score : 0.9900
-ROC-AUC  : 0.9998
+Accuracy : 0.9873
+Precision: 0.9877
+Recall   : 0.9873
+F1 Score : 0.9874
+ROC-AUC  : 0.9994
 ```
 
 Classification Report:
@@ -237,7 +237,7 @@ Classification Report:
               precision    recall  f1-score   support
 
        COVID       1.00      0.99      0.99       244
-      NORMAL       0.98      0.99      0.99       271
+      NORMAL       0.97      0.99      0.98       271
    PNEUMONIA       0.99      0.99      0.99       270
 
     accuracy                           0.99       785
