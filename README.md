@@ -279,8 +279,7 @@ pip install -r requirements.txt
 
 Pretrained model weights are not included in this repository due to file size limitations.
 
-
-# Download Pretrained Model
+## Download Pretrained Model
 
 Download the checkpoint from Google Drive:
 
@@ -288,12 +287,18 @@ https://drive.google.com/file/d/1k-sHICymGiRqQxUOAPkEP8UW41Sz689z/view?usp=share
 
 After downloading, place the file in the following directory:
 
+```text
 models/checkpoints/xray_resnet18_checkpoint.ckpt
+```
 
+## Additional Information
 
-# Additional Information
+For more details about model loading, inference, and evaluation, refer to the checkpoint documentation:
 
-For more details about model loading, inference, and evaluation, refer to the main documentation in this repository.
+```text
+models/checkpoints/README.md
+```
+
 
 ---
 
