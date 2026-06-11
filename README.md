@@ -277,19 +277,23 @@ pip install -r requirements.txt
 
 # Checkpoints
 
-Pretrained model checkpoints are provided inside:
+Pretrained model weights are not included in this repository due to file size limitations.
 
-```text
-models/checkpoints/
-```
 
-The checkpoint file contains:
+# Download Pretrained Model
 
-- Trained model weights
-- Optimizer state
-- Class labels
+Download the checkpoint from Google Drive:
 
-This allows easy inference or continued training without retraining the entire model from scratch.
+https://drive.google.com/file/d/1k-sHICymGiRqQxUOAPkEP8UW41Sz689z/view?usp=share_link
+
+After downloading, place the file in the following directory:
+
+models/checkpoints/xray_resnet18_checkpoint.ckpt
+
+
+# Additional Information
+
+For more details about model loading, inference, and evaluation, refer to the main documentation in this repository.
 
 ---
 
